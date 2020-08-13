@@ -72,6 +72,7 @@ document.getElementById("book-form").addEventListener("submit", function (e) {
   e.preventDefault();
 });
 
+// Eventlistener for delete
 document.getElementById("book-list").addEventListener("click", function (e) {
   const ui = new UI();
 
